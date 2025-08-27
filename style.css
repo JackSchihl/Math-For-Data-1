@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 30px 20px 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+#problem-area {
+    margin-bottom: 20px;
+}
+#point-display, #equation-display {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+#check-btn {
+    padding: 10px 20px;
+    font-size: 1em;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#check-btn:hover {
+    background: #0056b3;
+}
+#explanation {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #222;
+    background: #e9ecef;
+    padding: 15px;
+    border-radius: 6px;
+}
